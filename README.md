@@ -21,5 +21,6 @@ Output層限制只能用1個node，但隱藏層無限制
 ![圖片](https://user-images.githubusercontent.com/43849007/200174688-418c879e-82d5-4551-a529-085aa563c7d3.png) \
 - 藍色為分類時判斷的邊界
 - 紅色為收斂時的目標
+
 在收斂時model 會將不同類別朝著不同的收斂目標 Ex:第一類會越來越靠近0.25、第二類會越來越靠近0.75
 當model predict 該點的value的時候，classify function 會去判斷0~1之間要分成幾個類別並算出類別的boundary來進行分類。
