@@ -18,7 +18,7 @@ Output層限制只能用1個node，但隱藏層無限制
 - resultPlotDraw.py:負責繪出散點圖，並將圖的座標軸限制在剛好可顯示所有data的範圍，之後再劃分隔線(分隔線可能不會顯示在散點圖上，代表分隔線並沒有經過座標軸的範圍)
 
 ### 收斂和分類的方式
-![圖片](https://user-images.githubusercontent.com/43849007/200174688-418c879e-82d5-4551-a529-085aa563c7d3.png) \
+![圖片](https://user-images.githubusercontent.com/43849007/200174688-418c879e-82d5-4551-a529-085aa563c7d3.png) 
 - 藍色為分類時判斷的邊界
 - 紅色為收斂時的目標
 
